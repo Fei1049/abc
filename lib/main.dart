@@ -20,7 +20,7 @@ class TeamMenu extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('รวมผลงาน Flutter กลุ่ม'),
+        title: const Text('มหาราชันมารร้าย'),
         backgroundColor: Colors.blueAccent,
       ),
       body: Padding(
@@ -41,7 +41,7 @@ class TeamMenu extends StatelessWidget {
               style: ElevatedButton.styleFrom(padding: const EdgeInsets.all(15)),
               onPressed: () => Navigator.push(
                 context, 
-                MaterialPageRoute(builder: (context) => m1.MyHomePage(title: 'งานอของคนที่1')) // ลบ const ออกแล้ว
+                MaterialPageRoute(builder: (context) => m1.MyHomePage(title: 'งานของคนที่ 1')) // ลบ const ออกแล้ว
               ),
               child: const Text('งานของสมาชิกคนที่ 1 อรรถวุฒิ จันหลง'),
             ),
@@ -52,7 +52,7 @@ class TeamMenu extends StatelessWidget {
               style: ElevatedButton.styleFrom(padding: const EdgeInsets.all(15)),
               onPressed: () => Navigator.push(
                 context, 
-                MaterialPageRoute(builder: (context) => m2.MyHomePage(title: 'งานอของคนที่2')) // ลบ const ออกแล้ว
+                MaterialPageRoute(builder: (context) => m2.MyHomePage(title: 'งานของคนที่ 2')) // ลบ const ออกแล้ว
               ),
               child: const Text('งานของสมาชิกคนที่ 2 อนุภัทร อุดหมอ'),
             ),
@@ -63,7 +63,7 @@ class TeamMenu extends StatelessWidget {
               style: ElevatedButton.styleFrom(padding: const EdgeInsets.all(15)),
               onPressed: () => Navigator.push(
                 context, 
-                MaterialPageRoute(builder: (context) => m3.MyHomePage(title: 'งานอของคนที่3'))
+                MaterialPageRoute(builder: (context) => m3.MyHomePage(title: 'งานของคนที่ 3'))
               ),
               child: const Text('งานของสมาชิกคนที่ 3 วรากร คำดี'),
             ),
