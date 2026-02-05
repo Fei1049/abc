@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 
 // 1. Import ไฟล์หน้าหลักของเพื่อนแต่ละคน 
 // (ตรวจสอบชื่อไฟล์ใน GitHub ให้ตรงกับตรงนี้นะครับ)
-import 'm1/mm1.dart' as m1;
-import 'm2/mm2.dart' as m2;
-import 'm3/mm3.dart' as m3; // คอมเมนต์ไว้ก่อนถ้าเพื่อนคนที่ 3 ยังไม่อัปโหลดไฟล์
+import 'mm1.dart' as m1;
+import 'mm2.dart' as m2;
+import 'mm3.dart' as m3; // คอมเมนต์ไว้ก่อนถ้าเพื่อนคนที่ 3 ยังไม่อัปโหลดไฟล์
 
 void main() {
   runApp(const MaterialApp(
